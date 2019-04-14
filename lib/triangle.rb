@@ -12,8 +12,7 @@ class Triangle
   end
   
   def valid?
-    positive_lengths?
-    
+    positive_lengths? && triangle_inequality?
   end
   
   def positive_lengths?
