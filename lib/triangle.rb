@@ -10,7 +10,11 @@ class Triangle
   def kind 
     if !valid?
       raise TriangleError
-    else
+    else if equilateral?
+      
+    else if isosceles?
+      
+    else if scalen?
       
     end
   end
