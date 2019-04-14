@@ -19,6 +19,10 @@ class Triangle
     end
   end
   
+  def equilateral?
+    self.sid1 == sel
+  end
+  
   def valid?
     positive_lengths? && triangle_inequality?
   end
