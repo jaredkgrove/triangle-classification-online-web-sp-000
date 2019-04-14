@@ -24,7 +24,7 @@ class Triangle
   end
   
   def isosceles?
-    
+    self.side1 == self.side2 
   end
   
   def valid?
