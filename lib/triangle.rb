@@ -28,7 +28,7 @@ class Triangle
   end
   
   def scalene?
-    
+    self
   end
   
   def valid?
