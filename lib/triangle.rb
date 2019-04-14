@@ -12,10 +12,12 @@ class Triangle
   end
   
   def valid?
-    self.sides.all? {|side| side > 0} && self.side.sort[0] + self.sides.sort[1] > self.sides.sort[2]
+    positive_lengths?
     
-    self.side1 > 0 && self.side2 > 0 && self.side3 > 0 && (self.side1 + self.side2 > self.side3)
-    
+  end
+  
+  def positive_lengths?
+    self.side1 > 0 && self.side2 > 0 && self.side3 > 0
   end
   
   class TriangleError < StandardError
