@@ -21,7 +21,7 @@ class Triangle
   end
   
   def triangle_inequality?
-    ((self.side1 + self.side2) > self.side3) && ((self.side1 + self.side2) > self.side3) && ((self.side1 + self.side2) > self.side3)
+    ((self.side1 + self.side2) > self.side3) && ((self.side1 + self.side3) > self.side2) && ((self.side2 + self.side3) > self.side1)
   end
   
   class TriangleError < StandardError
