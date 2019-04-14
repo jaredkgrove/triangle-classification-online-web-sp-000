@@ -28,7 +28,7 @@ class Triangle
   end
   
   def scalene?
-    self
+    self.side1 != self.side2 && self.side1 != self.side3 && self.side2 != self.side3
   end
   
   def valid?
