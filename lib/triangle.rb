@@ -10,7 +10,7 @@ class Triangle
   end
   
   def valid?
-    self.sides.all? {|side| side > 0} && self.sides.
+    self.sides.all? {|side| side > 0}
     
   end
   
