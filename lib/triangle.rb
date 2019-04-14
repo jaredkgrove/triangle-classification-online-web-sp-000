@@ -8,7 +8,8 @@ class Triangle
   end
   
   def kind 
-    
+    if !valid?
+      
   end
   
   def valid?
