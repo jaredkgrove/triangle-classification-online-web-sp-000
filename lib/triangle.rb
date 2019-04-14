@@ -11,11 +11,11 @@ class Triangle
     if !valid?
       raise TriangleError
     else if equilateral?
-      
+      :equilateral
     else if isosceles?
-      
-    else if scalen?
-      
+      :isosceles
+    else if scalene?
+      :scalene
     end
   end
   
