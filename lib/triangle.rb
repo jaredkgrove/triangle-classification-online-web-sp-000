@@ -2,7 +2,7 @@ class Triangle
   attr_accessor :sides
   
   def initialize(side1, side2, side3)
-    @side = [side1, side2, side3]
+    @sides = [side1, side2, side3]
   end
   
   def kind 
@@ -10,7 +10,7 @@ class Triangle
   end
   
   def valid?
-    self.side1 > 0 && self.side2 > 0 && self.side3 > 0 
+    self.sides.all? {|side| side > 0} && self.sides.
     
   end
   
