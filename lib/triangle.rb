@@ -10,7 +10,7 @@ class Triangle
   end
   
   def valid?
-    self.sides.all? {|side| side > 0}
+    self.sides.all? {|side| side > 0} && self.side.sort[0] + self.sides.sort[1] > self.sides.sort[2]
     
   end
   
