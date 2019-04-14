@@ -9,7 +9,10 @@ class Triangle
   
   def kind 
     if !valid?
+      raise TriangleError
+    else
       
+    end
   end
   
   def valid?
