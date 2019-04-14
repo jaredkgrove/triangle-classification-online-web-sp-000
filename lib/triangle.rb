@@ -27,6 +27,10 @@ class Triangle
     self.side1 == self.side2 || self.side1 == self.side3 || self.side2 == self.side3
   end
   
+  def scalene?
+    
+  end
+  
   def valid?
     positive_lengths? && triangle_inequality?
   end
