@@ -20,6 +20,8 @@ class Triangle
     self.side1 > 0 && self.side2 > 0 && self.side3 > 0
   end
   
+  def 
+  
   class TriangleError < StandardError
     
   end
