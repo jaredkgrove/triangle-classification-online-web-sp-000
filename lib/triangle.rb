@@ -43,7 +43,7 @@ class Triangle
     (self.side1 + self.side2) > self.side3 && (self.side1 + self.side3) > self.side2 && (self.side2 + self.side3) > self.side1
   end
   
-  #class TriangleError < StandardError
+  class TriangleError < StandardError
     
-  #end
+  end
 end
