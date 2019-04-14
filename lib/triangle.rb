@@ -20,7 +20,7 @@ class Triangle
   end
   
   def equilateral?
-    self.sid1 == sel
+    self.side1 == self.side2 && self.side1 == self.side3
   end
   
   def valid?
